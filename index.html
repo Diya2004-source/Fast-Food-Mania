@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css link-->
+    <link rel="stylesheet" href="style.css">
+    <!--js link-->
+    <script src="index.js"></script>
+    <title>Fast Food Website</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="logo.png" alt=""></div>
+        <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Speciality">Speciality</a></li>
+            <li><a href="#Popular">Popular</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="Home" class="home">
+        <div class="content">
+            <h3>Food Made With Love</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda vitae officia eos doloribus voluptatum molestiae doloremque eum minima quibusdam ullam fugit
+                deleniti odio, veritatis praesentium saepe deserunt cum amet commodi in mollitia perspiciatis
+                dignissimos, nam perferendis! Reprehenderit, non officia! Ipsum.</p>
+            <button class="btn">Order Now</button>
+        </div>
+        <div class="image">
+            <img src="buger at home.png" alt="">
+        </div>
+    </section>
+
+
+    <!--Speciality-->
+    <div class="dishes" id="Speciality">
+        <div class="dish">
+            <p>Our Special Dishes</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <img src="burger.png" alt="Card Image">
+                <div class="card-content">
+                    <h3>Tasty Burger</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae sint fuga saepe odit reprehenderit
+                        nemo iusto maxime labore asperiores odio! Commodi deleniti voluptatem itaque eius!
+                    <p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="pizza.png" alt="Card Image">
+                <div class="card-content">
+                    <h3>Tasty Pizza</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut debitis, quae impedit delectus vel
+                        repellat!
+                    <p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="milkshake.png" alt="Card Image">
+                <div class="card-content">
+                    <h3>Cold Drinks</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut debitis, quae impedit delectus vel
+                        repellat!
+                    <p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="dessert.png" alt="Card Image">
+                <div class="card-content">
+                    <h3>Tasty Dessert</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut debitis, quae impedit delectus vel
+                        repellat!
+                    <p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="ice cream.png" alt="Card Image">
+                <div class="card-content">
+                    <h3>Ice-Cream</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut debitis, quae impedit delectus vel
+                        repellat!
+                    <p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="tea.png" alt="Card Image">
+                <div class="card-content">
+                    <h3>Healthy Food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut debitis, quae impedit delectus vel
+                        repellat!
+                    <p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--popular-->
+    <div class="popular" id="Popular">
+        <div class="dish">
+            <p>Most Popular Foods</p>
+        </div>
+        <div class="container">
+            <div class="card2">
+                <img src="burger food.jpg" alt="Card Image">
+                <div class="card-content">
+                    <h3>Tasty Burger</h3>
+                    <img src="5-stars.png" alt="">
+                    <button class="btn2" onclick="getValue()">Order Now</button>
+                    <span id="showValue"></span>
+                </div>
+            </div>
+
+            <div class="card2">
+                <img src="dessert food.jpg" alt="Card Image">
+                <div class="card-content">
+                    <h3>Yummy Dessert</h3>
+                    <img src="5-stars.png" alt="">
+                    <button class="btn2" onclick="getValue()">Order Now</button>
+                    <span id="show"></span>
+
+                </div>
+            </div>
+
+            <div class="card2">
+                <img src="cold drink food.jpg" alt="Card Image">
+                <div class="card-content">
+                    <h3>Cold Drinks</h3>
+                    <img src="5-stars.png" alt="">
+                    <button class="btn2" onclick="getValue()">Order Now</button>
+                    <span id="drinks"></span>
+                </div>
+            </div>
+
+            <div class="card2">
+                <img src="cup cake food.jpg" alt="Card Image">
+                <div class="card-content">
+                    <h3>Cup Cake</h3>
+                    <img src="5-stars.png" alt="">
+                    <button class="btn2" onclick="getValue()">Order Now</button>
+                    <span id="cup"></span>
+                </div>
+            </div>
+
+            <div class="card2">
+                <img src="pasta food.jpg" alt="Card Image">
+                <div class="card-content">
+                    <h3>Delicious pasta</h3>
+                    <img src="5-stars.png" alt="">
+                    <button class="btn2" onclick="gatValue()">Order Now</button>
+                    <span id="pasta"></span>
+                </div>
+            </div>
+
+            <div class="card2">
+                <img src="cake photo.jpg" alt="Card Image">
+                <div class="card-content">
+                    <h3>Sweet Cake</h3>
+                    <img src="5-stars.png" alt="">
+                    <button class="btn2" getValue onclick="">Order Now</button>
+                    <span id="cake"></span>
+                </div>
+            </div>
+
+            <div class="card2">
+                <img src="ice cream food.jpg" alt="Card Image">
+                <div class="card-content">
+                    <h3>Sweet Ice Cream</h3>
+                    <img src="5-stars.png" alt="">
+                    <button class="btn2" onclick="">Order Now</button>
+                    <span id="cream"></span>
+                </div>
+            </div>
+
+            <div class="card2">
+                <img src="sweets food.jpg" alt="Card Image">
+                <div class="card-content">
+                    <h3>Yummy Sweet</h3>
+                    <img src="5-stars.png" alt="">
+                    <button class="btn2" onclick="getValue">Order Now</button>
+                    <span id="sweet"></span>
+                </div>
+            </div>
+
+            <div class="card2">
+                <img src="tacos food.jpg" alt="Card Image">
+                <div class="card-content">
+                    <h3>Tasty Tacos</h3>
+                    <img src="5-stars.png" alt="">
+                    <button class="btn2" onclick="getValue">Order Now</button>
+                    <span id="tacos"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--gallery-->
+    <div class="gallery" id="Gallery">
+        <div class="dish">
+            <p>Our Food Gallery</p>
+        </div>
+        <div class="items">
+            <img src="buger at home.png" alt="">
+            <img src="cup cake food.jpg" alt="">
+            <img src="french fries.jpg" alt="">
+            <img src="pizza.jpg" alt="">
+            <img src="pasta.jpg" alt="">
+            <img src="spring roll.jpg" alt="">
+            <img src="sandwich.jpg" alt="">
+            <img src="maggie.jpg" alt="">
+            <img src="wrap.jpg" alt="">
+        </div>
+    </div>
+
+    <div id="Services">
+        <div class="dish">
+            <p>How It Works</p>
+        </div>
+        <div class="service">
+            <div class="data">
+                <img src="fast-delivery.png" alt="">
+                <h4>Free And Fast Food Delivery</h4>
+            </div>
+
+            <div class="data">
+                <img src="fast-food.png" alt="">
+                <h4>Choose YOur Favourite</h4>
+            </div>
+
+            <div class="data">
+                <img src="deposit.png" alt="">
+                <h4>Easy Payment Method</h4>
+            </div>
+
+            <div class="data">
+                <img src="customer.png" alt="">
+                <h4>Enjoy Your Food</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="Contact">
+        <div class="form-container">
+            <h2>Place Your Order</h2>
+            <form action="index.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="order">Order:</label>
+                <input type="text" id="orders" required>
+
+                <label for="qty">Quantity:</label>
+                <input type="number" id="qt" min="1" value="1" required>
+
+                <button type="submit" value="Submit">Submit Order</button>
+
+                <!-- <?php if (!empty($message)) { ?>
+                <div class="message">
+                    <?php echo $message; ?>
+                </div>
+                <?php } ?> -->
+
+                        <div class="message"><?php echo $message; ?></div>
+
+                
+            </form>
+        </div>
+
+        <div class="image-container"></div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Fast Food</h3>
+                <p>Delicious meals, fresh ingredients, and quick delivery. Experience the taste of love!</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Speciality">Speciality</a></li>
+                    <li><a href="#Popular">Popular/li>
+                    <li><a href="#Gallery">Gallery</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: fast@food.com</li>
+                    <li>Phone: +91 12345 6789</li>
+                    <li>Location: Rajkot, Gujarat</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#">🌐</a>
+                    <a href="#">📘</a>
+                    <a href="#">📸</a>
+                    <a href="#">🐦</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; 2025 Fast Food Mania | All rights reserved
+        </div>
+    </footer>
+
+</body>
+
+</html>
